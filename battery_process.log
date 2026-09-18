@@ -1,0 +1,324 @@
+2026-09-17 13:43:13.860 | INFO     | __main__:<module>:18 - Started mixing stage
+2026-09-17 13:43:13.918 | SUCCESS  | __main__:<module>:22 - Mixing complete
+2026-09-17 13:43:13.919 | INFO     | __main__:<module>:32 - Started coating stage
+2026-09-17 13:43:13.922 | SUCCESS  | __main__:<module>:36 - Coating complete
+2026-09-17 13:43:13.922 | INFO     | __main__:<module>:46 - Started calendering stage
+2026-09-17 13:43:13.925 | SUCCESS  | __main__:<module>:50 - Calendering complete
+2026-09-17 13:43:13.925 | INFO     | __main__:<module>:61 - Started assemblying stage
+2026-09-17 13:43:13.928 | SUCCESS  | __main__:<module>:65 - Assemblying complete
+2026-09-17 13:43:13.929 | INFO     | __main__:<module>:68 - Started resting
+2026-09-17 13:44:14.030 | SUCCESS  | __main__:<module>:72 - Resting complete
+2026-09-17 13:44:14.030 | SUCCESS  | __main__:<module>:74 - Battery process complete
+2026-09-17 13:46:02.106 | INFO     | __main__:<module>:18 - Started mixing stage
+2026-09-17 13:46:02.155 | SUCCESS  | __main__:<module>:22 - Mixing complete
+2026-09-17 13:46:02.156 | INFO     | __main__:<module>:32 - Started coating stage
+2026-09-17 13:46:02.158 | SUCCESS  | __main__:<module>:36 - Coating complete
+2026-09-17 13:46:02.159 | INFO     | __main__:<module>:46 - Started calendering stage
+2026-09-17 13:46:02.163 | SUCCESS  | __main__:<module>:50 - Calendering complete
+2026-09-17 13:46:02.163 | INFO     | __main__:<module>:61 - Started assemblying stage
+2026-09-17 13:46:02.167 | SUCCESS  | __main__:<module>:65 - Assemblying complete
+2026-09-17 13:46:02.167 | INFO     | __main__:<module>:69 - Started resting
+2026-09-17 13:47:02.280 | SUCCESS  | __main__:<module>:73 - Resting complete
+2026-09-17 13:47:02.289 | SUCCESS  | __main__:<module>:75 - Battery process complete
+2026-09-17 13:47:19.581 | INFO     | __main__:<module>:18 - Started mixing stage
+2026-09-17 13:47:19.620 | SUCCESS  | __main__:<module>:22 - Mixing complete
+2026-09-17 13:47:19.621 | INFO     | __main__:<module>:32 - Started coating stage
+2026-09-17 13:47:19.623 | SUCCESS  | __main__:<module>:36 - Coating complete
+2026-09-17 13:47:19.623 | INFO     | __main__:<module>:46 - Started calendering stage
+2026-09-17 13:47:19.625 | SUCCESS  | __main__:<module>:50 - Calendering complete
+2026-09-17 13:47:19.626 | INFO     | __main__:<module>:61 - Started assemblying stage
+2026-09-17 13:47:19.628 | SUCCESS  | __main__:<module>:65 - Assemblying complete
+2026-09-17 13:47:19.629 | INFO     | __main__:<module>:69 - Started resting
+2026-09-17 13:48:19.739 | SUCCESS  | __main__:<module>:73 - Resting complete
+2026-09-17 13:48:19.766 | SUCCESS  | __main__:<module>:75 - Battery process complete
+2026-09-17 13:48:53.752 | INFO     | __main__:<module>:18 - Started mixing stage
+2026-09-17 13:48:53.866 | SUCCESS  | __main__:<module>:22 - Mixing complete
+2026-09-17 13:48:53.866 | INFO     | __main__:<module>:32 - Started coating stage
+2026-09-17 13:48:53.870 | SUCCESS  | __main__:<module>:36 - Coating complete
+2026-09-17 13:48:53.870 | INFO     | __main__:<module>:46 - Started calendering stage
+2026-09-17 13:48:53.878 | SUCCESS  | __main__:<module>:50 - Calendering complete
+2026-09-17 13:48:53.879 | INFO     | __main__:<module>:61 - Started assemblying stage
+2026-09-17 13:48:53.883 | SUCCESS  | __main__:<module>:65 - Assemblying complete
+2026-09-17 13:48:53.883 | INFO     | __main__:<module>:69 - Started resting
+2026-09-17 13:49:54.010 | SUCCESS  | __main__:<module>:73 - Resting complete
+2026-09-17 13:49:54.014 | SUCCESS  | __main__:<module>:75 - Battery process complete
+2026-09-17 13:49:59.940 | INFO     | __main__:<module>:18 - Started mixing stage
+2026-09-17 13:49:59.982 | SUCCESS  | __main__:<module>:22 - Mixing complete
+2026-09-17 13:49:59.983 | INFO     | __main__:<module>:32 - Started coating stage
+2026-09-17 13:49:59.985 | SUCCESS  | __main__:<module>:36 - Coating complete
+2026-09-17 13:49:59.986 | INFO     | __main__:<module>:46 - Started calendering stage
+2026-09-17 13:49:59.989 | SUCCESS  | __main__:<module>:50 - Calendering complete
+2026-09-17 13:49:59.989 | INFO     | __main__:<module>:61 - Started assemblying stage
+2026-09-17 13:49:59.994 | SUCCESS  | __main__:<module>:65 - Assemblying complete
+2026-09-17 13:49:59.995 | INFO     | __main__:<module>:69 - Started resting
+2026-09-17 13:51:00.093 | SUCCESS  | __main__:<module>:73 - Resting complete
+2026-09-17 13:51:00.104 | SUCCESS  | __main__:<module>:75 - Battery process complete
+2026-09-17 14:00:12.802 | INFO     | __main__:<module>:18 - Started mixing stage
+2026-09-17 14:00:12.847 | SUCCESS  | __main__:<module>:22 - Mixing complete
+2026-09-17 14:00:12.848 | INFO     | __main__:<module>:32 - Started coating stage
+2026-09-17 14:00:12.851 | SUCCESS  | __main__:<module>:36 - Coating complete
+2026-09-17 14:00:12.851 | INFO     | __main__:<module>:46 - Started calendering stage
+2026-09-17 14:00:12.854 | SUCCESS  | __main__:<module>:50 - Calendering complete
+2026-09-17 14:00:12.854 | INFO     | __main__:<module>:61 - Started assemblying stage
+2026-09-17 14:00:12.857 | SUCCESS  | __main__:<module>:65 - Assemblying complete
+2026-09-17 14:00:12.858 | INFO     | __main__:<module>:69 - Started resting
+2026-09-17 14:01:12.920 | SUCCESS  | __main__:<module>:73 - Resting complete
+2026-09-17 14:01:12.937 | SUCCESS  | __main__:<module>:75 - Battery process complete
+2026-09-17 14:08:08.156 | INFO     | __main__:<module>:18 - Started mixing stage
+2026-09-17 14:08:08.207 | SUCCESS  | __main__:<module>:22 - Mixing complete
+2026-09-17 14:08:21.871 | INFO     | __main__:<module>:18 - Started mixing stage
+2026-09-17 14:08:21.990 | SUCCESS  | __main__:<module>:22 - Mixing complete
+2026-09-17 14:08:21.991 | INFO     | __main__:<module>:24 - 
+2026-09-17 14:08:21.992 | INFO     | __main__:<module>:33 - Started coating stage
+2026-09-17 14:08:21.996 | SUCCESS  | __main__:<module>:37 - Coating complete
+2026-09-17 14:08:22.013 | INFO     | __main__:<module>:47 - Started calendering stage
+2026-09-17 14:08:22.017 | SUCCESS  | __main__:<module>:51 - Calendering complete
+2026-09-17 14:08:22.019 | INFO     | __main__:<module>:62 - Started assemblying stage
+2026-09-17 14:08:22.025 | SUCCESS  | __main__:<module>:66 - Assemblying complete
+2026-09-17 14:08:22.027 | INFO     | __main__:<module>:70 - Started resting
+2026-09-17 14:09:22.095 | SUCCESS  | __main__:<module>:74 - Resting complete
+2026-09-17 14:09:22.108 | SUCCESS  | __main__:<module>:76 - Battery process complete
+2026-09-17 14:10:40.411 | INFO     | __main__:<module>:18 - Started mixing stage
+2026-09-17 14:10:40.481 | SUCCESS  | __main__:<module>:22 - Mixing complete
+2026-09-17 14:10:40.484 | INFO     | __main__:<module>:24 - ----------------------
+2026-09-17 14:10:40.486 | INFO     | __main__:<module>:33 - Started coating stage
+2026-09-17 14:10:40.493 | SUCCESS  | __main__:<module>:37 - Coating complete
+2026-09-17 14:10:40.500 | INFO     | __main__:<module>:47 - Started calendering stage
+2026-09-17 14:10:40.510 | SUCCESS  | __main__:<module>:51 - Calendering complete
+2026-09-17 14:10:40.517 | INFO     | __main__:<module>:62 - Started assemblying stage
+2026-09-17 14:10:40.533 | SUCCESS  | __main__:<module>:66 - Assemblying complete
+2026-09-17 14:10:40.535 | INFO     | __main__:<module>:70 - Started resting
+2026-09-17 14:11:40.596 | SUCCESS  | __main__:<module>:74 - Resting complete
+2026-09-17 14:11:40.606 | SUCCESS  | __main__:<module>:76 - Battery process complete
+2026-09-17 14:12:41.588 | INFO     | __main__:<module>:18 - Started mixing stage
+2026-09-17 14:12:41.633 | SUCCESS  | __main__:<module>:22 - Mixing complete
+2026-09-17 14:12:41.634 | INFO     | __main__:<module>:24 - ----------------------
+2026-09-17 14:12:41.635 | INFO     | __main__:<module>:33 - Started coating stage
+2026-09-17 14:12:41.638 | SUCCESS  | __main__:<module>:37 - Coating complete
+2026-09-17 14:12:41.639 | INFO     | __main__:<module>:47 - Started calendering stage
+2026-09-17 14:12:41.641 | SUCCESS  | __main__:<module>:51 - Calendering complete
+2026-09-17 14:12:41.642 | INFO     | __main__:<module>:62 - Started assemblying stage
+2026-09-17 14:12:41.646 | SUCCESS  | __main__:<module>:66 - Assemblying complete
+2026-09-17 14:12:41.647 | INFO     | __main__:<module>:70 - Started resting
+2026-09-17 14:13:41.700 | SUCCESS  | __main__:<module>:74 - Resting complete
+2026-09-17 14:13:41.701 | SUCCESS  | __main__:<module>:76 - Battery process complete
+2026-09-17 14:13:47.474 | INFO     | __main__:<module>:18 - Started mixing stage
+2026-09-17 14:13:47.514 | SUCCESS  | __main__:<module>:22 - Mixing complete
+2026-09-17 14:13:47.515 | INFO     | __main__:<module>:32 - Started coating stage
+2026-09-17 14:13:47.517 | SUCCESS  | __main__:<module>:36 - Coating complete
+2026-09-17 14:13:47.518 | INFO     | __main__:<module>:46 - Started calendering stage
+2026-09-17 14:13:47.521 | SUCCESS  | __main__:<module>:50 - Calendering complete
+2026-09-17 14:13:47.523 | INFO     | __main__:<module>:61 - Started assemblying stage
+2026-09-17 14:13:47.527 | SUCCESS  | __main__:<module>:65 - Assemblying complete
+2026-09-17 14:13:47.529 | INFO     | __main__:<module>:69 - Started resting
+2026-09-17 14:14:47.649 | SUCCESS  | __main__:<module>:73 - Resting complete
+2026-09-17 14:14:47.650 | SUCCESS  | __main__:<module>:75 - Battery process complete
+2026-09-17 14:14:47.651 | INFO     | __main__:<module>:76 - ----------------------
+2026-09-17 14:15:05.766 | INFO     | __main__:<module>:9 - ----------------------
+2026-09-17 14:15:05.767 | INFO     | __main__:<module>:18 - Started mixing stage
+2026-09-17 14:15:05.806 | SUCCESS  | __main__:<module>:22 - Mixing complete
+2026-09-17 14:15:05.807 | INFO     | __main__:<module>:32 - Started coating stage
+2026-09-17 14:15:05.809 | SUCCESS  | __main__:<module>:36 - Coating complete
+2026-09-17 14:15:05.810 | INFO     | __main__:<module>:46 - Started calendering stage
+2026-09-17 14:15:05.813 | SUCCESS  | __main__:<module>:50 - Calendering complete
+2026-09-17 14:15:05.814 | INFO     | __main__:<module>:61 - Started assemblying stage
+2026-09-17 14:15:05.817 | SUCCESS  | __main__:<module>:65 - Assemblying complete
+2026-09-17 14:15:05.817 | INFO     | __main__:<module>:69 - Started resting
+2026-09-17 14:16:05.922 | SUCCESS  | __main__:<module>:73 - Resting complete
+2026-09-17 14:16:05.926 | SUCCESS  | __main__:<module>:75 - Battery process complete
+2026-09-17 14:16:05.928 | INFO     | __main__:<module>:76 - ----------------------
+2026-09-17 14:19:33.558 | SUCCESS  | __main__:<module>:9 - Battery process complete
+2026-09-17 14:19:33.558 | INFO     | __main__:<module>:19 - Started mixing stage
+2026-09-17 14:19:33.603 | SUCCESS  | __main__:<module>:23 - Mixing complete
+2026-09-17 14:19:33.604 | INFO     | __main__:<module>:33 - Started coating stage
+2026-09-17 14:19:33.607 | SUCCESS  | __main__:<module>:37 - Coating complete
+2026-09-17 14:19:33.611 | INFO     | __main__:<module>:47 - Started calendering stage
+2026-09-17 14:19:33.616 | SUCCESS  | __main__:<module>:51 - Calendering complete
+2026-09-17 14:19:33.617 | INFO     | __main__:<module>:62 - Started assemblying stage
+2026-09-17 14:19:33.622 | SUCCESS  | __main__:<module>:66 - Assemblying complete
+2026-09-17 14:19:33.624 | INFO     | __main__:<module>:70 - Started resting
+2026-09-17 14:20:33.730 | SUCCESS  | __main__:<module>:74 - Resting complete
+2026-09-17 14:20:33.734 | SUCCESS  | __main__:<module>:78 - Battery process complete
+2026-09-17 14:20:33.736 | INFO     | __main__:<module>:79 - ----------------------
+2026-09-17 14:20:34.066 | SUCCESS  | __main__:<module>:9 - Battery process started
+2026-09-17 14:20:34.067 | INFO     | __main__:<module>:19 - Started mixing stage
+2026-09-17 14:20:34.105 | SUCCESS  | __main__:<module>:23 - Mixing complete
+2026-09-17 14:20:34.105 | INFO     | __main__:<module>:33 - Started coating stage
+2026-09-17 14:20:34.108 | SUCCESS  | __main__:<module>:37 - Coating complete
+2026-09-17 14:20:34.109 | INFO     | __main__:<module>:47 - Started calendering stage
+2026-09-17 14:20:34.112 | SUCCESS  | __main__:<module>:51 - Calendering complete
+2026-09-17 14:20:34.113 | INFO     | __main__:<module>:62 - Started assemblying stage
+2026-09-17 14:20:34.115 | SUCCESS  | __main__:<module>:66 - Assemblying complete
+2026-09-17 14:20:34.116 | INFO     | __main__:<module>:70 - Started resting
+2026-09-17 14:21:34.221 | SUCCESS  | __main__:<module>:74 - Resting complete
+2026-09-17 14:21:34.222 | SUCCESS  | __main__:<module>:78 - Battery process complete
+2026-09-17 14:21:34.222 | INFO     | __main__:<module>:79 - ----------------------
+2026-09-17 15:07:49.094 | SUCCESS  | __main__:<module>:16 - Battery process started
+2026-09-17 15:07:49.095 | INFO     | __main__:<module>:26 - Started mixing stage
+2026-09-17 15:07:49.155 | SUCCESS  | __main__:<module>:30 - Mixing complete
+2026-09-17 15:07:49.156 | INFO     | __main__:<module>:40 - Started coating stage
+2026-09-17 15:07:49.160 | SUCCESS  | __main__:<module>:44 - Coating complete
+2026-09-17 15:07:49.161 | INFO     | __main__:<module>:54 - Started calendering stage
+2026-09-17 15:07:49.165 | SUCCESS  | __main__:<module>:58 - Calendering complete
+2026-09-17 15:07:49.166 | INFO     | __main__:<module>:69 - Started assemblying stage
+2026-09-17 15:07:49.172 | SUCCESS  | __main__:<module>:73 - Assemblying complete
+2026-09-17 15:07:49.173 | INFO     | __main__:<module>:77 - Started resting
+2026-09-17 15:08:49.257 | SUCCESS  | __main__:<module>:81 - Resting complete
+2026-09-17 15:08:49.258 | SUCCESS  | __main__:<module>:85 - Battery process complete
+2026-09-17 15:08:49.259 | INFO     | __main__:<module>:86 - ----------------------
+2026-09-17 15:10:00.151 | SUCCESS  | __main__:<module>:10 - Battery process started
+2026-09-17 15:10:00.152 | INFO     | __main__:<module>:20 - Started mixing stage
+2026-09-17 15:10:00.206 | SUCCESS  | __main__:<module>:24 - Mixing complete
+2026-09-17 15:10:00.207 | INFO     | __main__:<module>:34 - Started coating stage
+2026-09-17 15:10:00.211 | SUCCESS  | __main__:<module>:38 - Coating complete
+2026-09-17 15:10:00.212 | INFO     | __main__:<module>:48 - Started calendering stage
+2026-09-17 15:10:00.216 | SUCCESS  | __main__:<module>:52 - Calendering complete
+2026-09-17 15:10:00.217 | INFO     | __main__:<module>:63 - Started assemblying stage
+2026-09-17 15:10:00.281 | SUCCESS  | __main__:<module>:67 - Assemblying complete
+2026-09-17 15:10:00.283 | INFO     | __main__:<module>:71 - Started resting
+2026-09-17 15:11:00.373 | SUCCESS  | __main__:<module>:75 - Resting complete
+2026-09-17 15:11:00.375 | SUCCESS  | __main__:<module>:79 - Battery process complete
+2026-09-17 15:11:00.375 | INFO     | __main__:<module>:80 - ----------------------
+2026-09-17 15:12:10.881 | SUCCESS  | __main__:<module>:10 - Battery process started
+2026-09-17 15:12:10.882 | INFO     | __main__:<module>:20 - Started mixing stage
+2026-09-17 15:12:10.971 | SUCCESS  | __main__:<module>:24 - Mixing complete
+2026-09-17 15:12:10.974 | INFO     | __main__:<module>:34 - Started coating stage
+2026-09-17 15:12:10.980 | SUCCESS  | __main__:<module>:38 - Coating complete
+2026-09-17 15:12:10.982 | INFO     | __main__:<module>:48 - Started calendering stage
+2026-09-17 15:12:10.988 | SUCCESS  | __main__:<module>:52 - Calendering complete
+2026-09-17 15:12:10.990 | INFO     | __main__:<module>:63 - Started assemblying stage
+2026-09-17 15:12:10.998 | SUCCESS  | __main__:<module>:67 - Assemblying complete
+2026-09-17 15:12:10.999 | INFO     | __main__:<module>:71 - Started resting
+2026-09-17 15:13:11.147 | SUCCESS  | __main__:<module>:75 - Resting complete
+2026-09-17 15:13:11.149 | SUCCESS  | __main__:<module>:79 - Battery process complete
+2026-09-17 15:13:11.149 | INFO     | __main__:<module>:80 - ----------------------
+2026-09-17 15:14:23.962 | SUCCESS  | __main__:<module>:10 - Battery process started
+2026-09-17 15:14:23.962 | INFO     | __main__:<module>:20 - Started mixing stage
+2026-09-17 15:14:24.000 | SUCCESS  | __main__:<module>:24 - Mixing complete
+2026-09-17 15:14:24.001 | INFO     | __main__:<module>:34 - Started coating stage
+2026-09-17 15:14:24.003 | SUCCESS  | __main__:<module>:38 - Coating complete
+2026-09-17 15:14:24.004 | INFO     | __main__:<module>:48 - Started calendering stage
+2026-09-17 15:14:24.006 | SUCCESS  | __main__:<module>:52 - Calendering complete
+2026-09-17 15:14:24.007 | INFO     | __main__:<module>:63 - Started assemblying stage
+2026-09-17 15:14:24.010 | SUCCESS  | __main__:<module>:67 - Assemblying complete
+2026-09-17 15:14:24.011 | INFO     | __main__:<module>:71 - Started resting
+2026-09-17 15:15:24.918 | SUCCESS  | __main__:<module>:75 - Resting complete
+2026-09-17 15:15:24.919 | SUCCESS  | __main__:<module>:79 - Battery process complete
+2026-09-17 15:15:24.920 | INFO     | __main__:<module>:80 - ----------------------
+2026-09-17 15:16:31.727 | SUCCESS  | __main__:<module>:10 - Battery process started
+2026-09-17 15:16:31.728 | INFO     | __main__:<module>:20 - Started mixing stage
+2026-09-17 15:16:31.774 | SUCCESS  | __main__:<module>:24 - Mixing complete
+2026-09-17 15:16:31.775 | INFO     | __main__:<module>:34 - Started coating stage
+2026-09-17 15:16:31.780 | SUCCESS  | __main__:<module>:38 - Coating complete
+2026-09-17 15:16:31.782 | INFO     | __main__:<module>:48 - Started calendering stage
+2026-09-17 15:16:31.786 | SUCCESS  | __main__:<module>:52 - Calendering complete
+2026-09-17 15:16:31.787 | INFO     | __main__:<module>:63 - Started assemblying stage
+2026-09-17 15:16:31.790 | SUCCESS  | __main__:<module>:67 - Assemblying complete
+2026-09-17 15:16:31.791 | INFO     | __main__:<module>:71 - Started resting
+2026-09-17 15:17:32.830 | SUCCESS  | __main__:<module>:75 - Resting complete
+2026-09-17 15:17:32.835 | SUCCESS  | __main__:<module>:79 - Battery process complete
+2026-09-17 15:17:32.838 | INFO     | __main__:<module>:80 - ----------------------
+2026-09-17 15:17:38.291 | SUCCESS  | __main__:<module>:10 - Battery process started
+2026-09-17 15:17:38.292 | INFO     | __main__:<module>:20 - Started mixing stage
+2026-09-17 15:17:38.335 | SUCCESS  | __main__:<module>:24 - Mixing complete
+2026-09-17 15:17:38.336 | INFO     | __main__:<module>:34 - Started coating stage
+2026-09-17 15:17:38.339 | SUCCESS  | __main__:<module>:38 - Coating complete
+2026-09-17 15:17:38.340 | INFO     | __main__:<module>:48 - Started calendering stage
+2026-09-17 15:17:38.342 | SUCCESS  | __main__:<module>:52 - Calendering complete
+2026-09-17 15:17:38.344 | INFO     | __main__:<module>:64 - Started assemblying stage
+2026-09-17 15:17:38.347 | SUCCESS  | __main__:<module>:67 - Assemblying complete
+2026-09-17 15:17:38.349 | INFO     | __main__:<module>:71 - Started resting
+2026-09-17 15:18:39.272 | SUCCESS  | __main__:<module>:75 - Resting complete
+2026-09-17 15:18:39.297 | SUCCESS  | __main__:<module>:79 - Battery process complete
+2026-09-17 15:18:39.298 | INFO     | __main__:<module>:80 - ----------------------
+2026-09-17 15:20:31.410 | SUCCESS  | __main__:<module>:10 - Battery process started
+2026-09-17 15:20:31.514 | INFO     | __main__:<module>:22 - Started mixing stage
+2026-09-17 15:20:31.517 | SUCCESS  | __main__:<module>:25 - Mixing complete
+2026-09-17 15:20:31.519 | INFO     | __main__:<module>:37 - Started coating stage
+2026-09-17 15:20:31.522 | SUCCESS  | __main__:<module>:40 - Coating complete
+2026-09-17 15:20:31.535 | INFO     | __main__:<module>:52 - Started calendering stage
+2026-09-17 15:20:31.538 | SUCCESS  | __main__:<module>:55 - Calendering complete
+2026-09-17 15:20:31.540 | INFO     | __main__:<module>:68 - Started assemblying stage
+2026-09-17 15:20:31.544 | SUCCESS  | __main__:<module>:71 - Assemblying complete
+2026-09-17 15:20:31.545 | INFO     | __main__:<module>:76 - Started resting
+2026-09-17 15:21:32.514 | SUCCESS  | __main__:<module>:79 - Resting complete
+2026-09-17 15:21:32.526 | SUCCESS  | __main__:<module>:83 - Battery process complete
+2026-09-17 15:21:32.528 | INFO     | __main__:<module>:84 - ----------------------
+2026-09-17 15:25:03.263 | SUCCESS  | __main__:<module>:14 - Battery process started
+2026-09-17 15:25:03.303 | INFO     | __main__:<module>:26 - Started mixing
+2026-09-17 15:25:03.306 | SUCCESS  | __main__:<module>:29 - Mixing complete
+2026-09-17 15:25:03.307 | INFO     | __main__:<module>:41 - Started coating
+2026-09-17 15:25:03.308 | SUCCESS  | __main__:<module>:44 - Coating complete
+2026-09-17 15:25:03.310 | INFO     | __main__:<module>:56 - Started calendering
+2026-09-17 15:25:03.311 | SUCCESS  | __main__:<module>:59 - Calendering complete
+2026-09-17 15:25:03.312 | INFO     | __main__:<module>:72 - Started assemblying
+2026-09-17 15:25:03.315 | SUCCESS  | __main__:<module>:75 - Assemblying complete
+2026-09-17 15:25:03.316 | INFO     | __main__:<module>:80 - Started resting
+2026-09-17 15:26:04.418 | SUCCESS  | __main__:<module>:83 - Resting complete
+2026-09-17 15:26:04.421 | SUCCESS  | __main__:<module>:87 - Process complete
+2026-09-17 15:26:04.422 | INFO     | __main__:<module>:88 - ----------------------
+2026-09-17 15:28:43.189 | SUCCESS  | __main__:<module>:10 - Battery process started
+2026-09-17 15:28:43.229 | INFO     | __main__:<module>:22 - Started mixing
+2026-09-17 15:28:43.231 | SUCCESS  | __main__:<module>:25 - Mixing complete
+2026-09-17 15:28:43.233 | INFO     | __main__:<module>:37 - Started coating
+2026-09-17 15:28:43.235 | SUCCESS  | __main__:<module>:40 - Coating complete
+2026-09-17 15:28:43.237 | INFO     | __main__:<module>:52 - Started calendering
+2026-09-17 15:28:43.239 | SUCCESS  | __main__:<module>:55 - Calendering complete
+2026-09-17 15:28:43.240 | INFO     | __main__:<module>:68 - Started assemblying
+2026-09-17 15:28:43.242 | SUCCESS  | __main__:<module>:71 - Assemblying complete
+2026-09-17 15:28:43.244 | INFO     | __main__:<module>:76 - Started resting
+2026-09-17 15:29:44.203 | SUCCESS  | __main__:<module>:79 - Resting complete
+2026-09-17 15:29:44.207 | SUCCESS  | __main__:<module>:83 - Process complete
+2026-09-17 15:29:44.209 | INFO     | __main__:<module>:84 - ----------------------
+2026-09-17 15:46:44.522 | SUCCESS  | __main__:<module>:13 - Battery process started
+2026-09-17 15:46:44.559 | INFO     | __main__:<module>:25 - Started mixing
+2026-09-17 15:46:44.561 | SUCCESS  | __main__:<module>:28 - Mixing complete
+2026-09-17 15:46:44.562 | INFO     | __main__:<module>:40 - Started coating
+2026-09-17 15:46:44.564 | SUCCESS  | __main__:<module>:43 - Coating complete
+2026-09-17 15:46:44.565 | INFO     | __main__:<module>:55 - Started calendering
+2026-09-17 15:46:44.568 | SUCCESS  | __main__:<module>:58 - Calendering complete
+2026-09-17 15:46:44.569 | INFO     | __main__:<module>:71 - Started assemblying
+2026-09-17 15:46:44.571 | SUCCESS  | __main__:<module>:74 - Assemblying complete
+2026-09-17 15:46:44.572 | INFO     | __main__:<module>:79 - Started resting
+2026-09-17 15:47:45.573 | SUCCESS  | __main__:<module>:82 - Resting complete
+2026-09-17 15:47:45.581 | SUCCESS  | __main__:<module>:86 - Process complete
+2026-09-17 15:47:45.581 | INFO     | __main__:<module>:87 - ----------------------
+2026-09-17 15:48:30.340 | SUCCESS  | __main__:<module>:13 - Battery process started
+2026-09-17 15:48:30.378 | INFO     | __main__:<module>:25 - Started mixing
+2026-09-17 15:48:30.381 | SUCCESS  | __main__:<module>:28 - Mixing complete
+2026-09-17 15:48:30.383 | INFO     | __main__:<module>:40 - Started coating
+2026-09-17 15:48:30.385 | SUCCESS  | __main__:<module>:43 - Coating complete
+2026-09-17 15:48:30.386 | INFO     | __main__:<module>:55 - Started calendering
+2026-09-17 15:48:30.388 | SUCCESS  | __main__:<module>:58 - Calendering complete
+2026-09-17 15:48:30.390 | INFO     | __main__:<module>:71 - Started assemblying
+2026-09-17 15:48:30.392 | SUCCESS  | __main__:<module>:74 - Assemblying complete
+2026-09-17 15:48:30.393 | INFO     | __main__:<module>:79 - Started resting
+2026-09-17 15:49:31.517 | SUCCESS  | __main__:<module>:82 - Resting complete
+2026-09-17 15:49:31.519 | SUCCESS  | __main__:<module>:86 - Process complete
+2026-09-17 15:49:31.520 | INFO     | __main__:<module>:87 - ----------------------
+2026-09-18 10:03:52.138 | SUCCESS  | __main__:<module>:13 - Battery process started
+2026-09-18 10:03:52.214 | INFO     | __main__:<module>:25 - Started mixing
+2026-09-18 10:03:52.218 | SUCCESS  | __main__:<module>:28 - Mixing complete
+2026-09-18 10:03:52.226 | INFO     | __main__:<module>:40 - Started coating
+2026-09-18 10:03:52.271 | SUCCESS  | __main__:<module>:43 - Coating complete
+2026-09-18 10:03:52.273 | INFO     | __main__:<module>:55 - Started calendering
+2026-09-18 10:03:52.278 | SUCCESS  | __main__:<module>:58 - Calendering complete
+2026-09-18 10:03:52.279 | INFO     | __main__:<module>:71 - Started assemblying
+2026-09-18 10:03:52.282 | SUCCESS  | __main__:<module>:74 - Assemblying complete
+2026-09-18 10:03:52.285 | INFO     | __main__:<module>:79 - Started resting
+2026-09-18 10:04:52.864 | SUCCESS  | __main__:<module>:82 - Resting complete
+2026-09-18 10:04:52.875 | SUCCESS  | __main__:<module>:86 - Process complete
+2026-09-18 10:04:52.876 | INFO     | __main__:<module>:87 - ----------------------
+2026-09-18 10:26:39.103 | SUCCESS  | __main__:<module>:13 - Battery process started
+2026-09-18 10:26:39.150 | INFO     | __main__:<module>:25 - Started mixing
+2026-09-18 10:26:39.153 | SUCCESS  | __main__:<module>:28 - Mixing complete
+2026-09-18 10:26:39.155 | INFO     | __main__:<module>:40 - Started coating
+2026-09-18 10:26:39.157 | SUCCESS  | __main__:<module>:43 - Coating complete
+2026-09-18 10:26:39.159 | INFO     | __main__:<module>:55 - Started calendering
+2026-09-18 10:26:39.161 | SUCCESS  | __main__:<module>:58 - Calendering complete
+2026-09-18 10:26:39.163 | INFO     | __main__:<module>:71 - Started assemblying
+2026-09-18 10:26:39.166 | SUCCESS  | __main__:<module>:74 - Assemblying complete
+2026-09-18 10:26:39.167 | INFO     | __main__:<module>:79 - Started resting
+2026-09-18 10:27:39.694 | SUCCESS  | __main__:<module>:82 - Resting complete
+2026-09-18 10:27:39.695 | SUCCESS  | __main__:<module>:86 - Process complete
+2026-09-18 10:27:39.695 | INFO     | __main__:<module>:87 - ----------------------
