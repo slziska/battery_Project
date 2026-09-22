@@ -6,16 +6,14 @@ from loguru import logger
 from plyer import notification
 from dotenv import load_dotenv
 import os
-
-# ── ADDED: talk to Camunda over plain HTTP ──────────────────────────
-import requests
+import requests #talk to camunda over http
 
 load_dotenv()
 
 logger.add("battery_process.log")  # auto-writes to file AND terminal
 logger.opt(colors=True).success("<magenta>Battery process started</magenta>")
 
-
+#functions for what to do - prints each step etc
 def mixing(active_material, conductive_additive, binder, solvent):
     process = [f"weigh out {active_material}, {conductive_additive}, {binder}, and {solvent}",
                "mix the dry ingredients together",
@@ -49,13 +47,7 @@ def assemblying(cell, casing_type, electrolyte):
     return process
 
 
-# ── CHANGED: each stage's "run it and print steps" logic used to sit
-# at module level (so it fired the instant the script was imported/run,
-# all four stages back to back). It's now wrapped in a function so it
-# only runs when Camunda actually hands us that specific task — this is
-# the core change that lets Camunda control WHEN each step happens,
-# rather than the script deciding that on its own. Everything INSIDE
-# each function (the print/logger calls) is identical to your original.
+# functions for when and how - camunda calls functions with ZERO arguments, so these functions call the old functions with no arguments
 
 def run_mixing():
     print("[bold hot_pink]--- Mixing ---[/bold hot_pink]")
@@ -96,10 +88,7 @@ def run_assemblying():
     logger.success("Assemblying complete")
     print()
 
-    # This part (the rest) was always last in your script, so it's kept
-    # attached to the end of assemblying — it still runs right after,
-    # just now triggered by Camunda completing the Assemblying task
-    # rather than by falling through to the next line of the script.
+
     print("[bold hot_pink]--- Rest ---[/bold hot_pink]")
     logger.info("Started resting")
     for i in tqdm(range(600), colour="magenta"):  # runs 600 times
@@ -117,22 +106,15 @@ def run_assemblying():
     )
 
 
-# ── ADDED: Camunda connection settings ───────────────────────────────
-# BASE_URL points at wherever Camunda's REST API is running. This never
-# changes based on WHAT you're deploying, only WHERE Camunda itself is
-# hosted (localhost, Docker, a server, etc.).
-BASE_URL = "http://localhost:8080/engine-rest"
+#camunda connection settings
+BASE_URL = "http://localhost:8080/engine-rest" #pointed to where camunda is being hosted (local, docker)
 WORKER_ID = "python-worker-1"
-AUTH = ("demo", "demo")  # CIB seven requires login even for the REST API
+AUTH = ("demo", "demo")  # CIB seven login
 
-# ── ADDED: topic names, copied exactly from the .bpmn file's
-# camunda:topic="..." attributes. These are how Camunda tells your
-# worker WHICH step a given waiting task is for.
+#topic names from the .bpmn file - These are how Camunda tells your worker WHICH step a given waiting task is for.
 TOPICS = ["lib_nib.mixing", "lib_nib.coating", "lib_nib.calendering", "lib_nib.assemblying"]
 
-# ── ADDED: map each BPMN task's activityId to the function that should
-# run when that task comes up. activityId values also come straight
-# from the .bpmn file (the id="..." on each <bpmn:serviceTask>).
+#each tasks activityId to the function that should run when task gets called. 
 ACTIVITY_HANDLERS = {
     "Task_Mixing": run_mixing,
     "Task_Coating": run_coating,
@@ -140,10 +122,8 @@ ACTIVITY_HANDLERS = {
     "Task_Assemblying": run_assemblying,
 }
 
-
-# ── ADDED: the actual "ask Camunda, then tell Camunda" cycle. This is
-# the only genuinely new logic — your functions above don't know
-# Camunda exists at all; this is what connects them to it.
+ 
+#"ask Camunda, then tell Camunda" cycle. - connects them with camunda
 def poll_once():
     # Ask Camunda: "is anything waiting for one of my topics?"
     resp = requests.post(
@@ -178,11 +158,7 @@ def poll_once():
 
 
 def main():
-    # ── CHANGED: this loop REPLACES the old "just run everything once"
-    # behavior. Instead of executing all four stages back-to-back one
-    # time, the script now runs forever, checking every 2 seconds for
-    # new work, so it can serve any number of process instances over
-    # time rather than just one run.
+    #this replaces the old "just run everything once" to the script now runs forever, checking every 2 seconds for new work
     print(f"Worker '{WORKER_ID}' started. Polling every 2s. Ctrl+C to stop.")
     while True:
         try:
