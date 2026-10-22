@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flag Quiz</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(135deg, #ffe1f0, #ffc4e0); /* soft pink gradient */
+      min-height: 100vh;
+      display: flex;              /* these 3 lines put the card */
+      align-items: center;        /* in the middle of the screen */
+      justify-content: center;
+    }
+
+
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 10px 30px rgba(219, 39, 119, 0.2);
+      text-align: center;
+      max-width: 420px;
+      width: 90%;
+    }
+
+    h1 {
+      color: #db2777;
+      margin-top: 0;
+    }
+
+    #flag {
+      width: 100%;
+      max-width: 320px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      margin-bottom: 20px;
+    }
+
+    /* ===== THE 4 ANSWER BUTTONS ===== */
+    .answers {
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* 2 columns, so 2x2 buttons */
+      gap: 10px;
+    }
+
+    .answers button {
+      background: #fdf2f8;
+      color: #be185d;
+      border: 2px solid #fbcfe8;
+      padding: 14px 10px;
+      border-radius: 12px;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;            /* hand cursor on hover */
+    }
+
+    .answers button:hover {
+      background: #fce7f3;
+    }
+
+    /* colors after answering (the code adds these classes) */
+    .answers button.right {
+      background: #22c55e;
+      border-color: #16a34a;
+      color: white;
+    }
+    .answers button.wrong {
+      background: #ef4444;
+      border-color: #dc2626;
+      color: white;
+    }
+
+    /* ===== MESSAGE ===== */
+    #message {
+      min-height: 24px;           /* keeps space so the page doesn't jump */
+      font-weight: 600;
+      color: #374151;
+    }
+
+    /* ===== NEXT BUTTON ===== */
+    #nextBtn {
+      background: #ec4899;
+      color: white;
+      border: none;
+      padding: 14px;
+      border-radius: 12px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      width: 100%;
+    }
+    #nextBtn:hover {
+      background: #db2777;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>Flag Quiz</h1>
+
+    <!-- the flag picture -->
+    <img id="flag">
+
+    <!-- the 4 answer buttons, inside a box so CSS can arrange them 2x2 -->
+    <div class="answers">
+      <button id="a0"></button>
+      <button id="a1"></button>
+      <button id="a2"></button>
+      <button id="a3"></button>
+    </div>
+
+    <!-- shows correct or wrong -->
+    <p id="message"></p>
+
+    <button id="nextBtn">Next flag</button>
+  </div>
+
+  <script>
+    let data = {};       // all countries: { "at": "Austria", ... }
+    let choices = [];    // the 4 codes on the buttons, e.g. ["fr", "jp", "br", "at"]
+    let correct = "";    // the code of the right answer, e.g. "at"
+
+
+    
+    async function newFlag() {
+      // 1. Get all countries from the API
+      const response = await fetch("https://flagcdn.com/en/codes.json");
+      data = await response.json();
+
+      // 2. Turn the block into a list of codes, keep only 2-letter ones (real countries)
+      const codes = Object.keys(data).filter(code => code.length === 2);
+
+      // 3. Pick 4 random codes
+      choices = [];
+      for (let i = 0; i < 4; i++) {
+        const number = Math.floor(Math.random() * codes.length);
+        choices.push(codes[number]);
+      }
+
+      // 4. One of the 4 is the right answer
+      correct = choices[Math.floor(Math.random() * 4)];
+
+      // 5. Show its flag
+      document.getElementById("flag").src = "https://flagcdn.com/w320/" + correct + ".png";
+
+      // 6. Write the 4 country names on the buttons, and remove old colors
+      for (let i = 0; i < 4; i++) {
+        document.getElementById("a" + i).textContent = data[choices[i]];
+        document.getElementById("a" + i).className = "";   // NEW: back to normal color
+      }
+
+      // 7. Clear the old message
+      document.getElementById("message").textContent = "";
+    }
+
+
+    
+    // "position" is which button was clicked: 0, 1, 2 or 3
+    function checkAnswer(position) {
+      if (choices[position] === correct) {
+        document.getElementById("message").textContent = "Correct! 🎉";
+        document.getElementById("a" + position).className = "right";   // NEW: green
+      } else {
+        document.getElementById("message").textContent = "Wrong! It was " + data[correct];
+        document.getElementById("a" + position).className = "wrong";   // NEW: red
+      }
+    }
+
+
+   
+    document.getElementById("a0").addEventListener("click", () => checkAnswer(0));
+    document.getElementById("a1").addEventListener("click", () => checkAnswer(1));
+    document.getElementById("a2").addEventListener("click", () => checkAnswer(2));
+    document.getElementById("a3").addEventListener("click", () => checkAnswer(3));
+    document.getElementById("nextBtn").addEventListener("click", newFlag);
+
+    
+    newFlag();
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>trying API</title>
+    </head>
+    <body>
+        <h1>Fetching infos with APIs</h1>
+
+        <button id="btn">Get Weather</button>
+        <p id="result"></p>
+
+        <br>
+        <button id="dogBtn">Get a dog</button><br>
+        <img id="dogImg" width="300">
+
+        <br> <br>
+        <button id="spellBtn">Cast a spell</button>
+        <p id="spellResult"></p>
+
+        <br>
+        <button id="hpBtn">Get a character</button>
+        <p id="hpResult"></p>
+        <img id="hpImg" width="150">
+
+        <br>
+        <button id="adviceBtn">Give me advice</button>
+        <p id="adviceResult"></p>
+
+        <script>
+           
+            async function getWeather() {
+                const response = await fetch("https://api.open-meteo.com/v1/forecast?latitude=49.61&longitude=6.13&current=temperature_2m,wind_speed_10m");
+                const data = await response.json();
+                document.getElementById("result").textContent =
+                    "current Temperature: " + data.current.temperature_2m + "°C";
+            }
+            document.getElementById("btn").addEventListener("click", getWeather);
+
+            
+            async function getSpell() {
+                const response = await fetch("https://hp-api.onrender.com/api/spells");
+                const data = await response.json();
+                const number = Math.floor(Math.random() * data.length); // random position in the list
+                document.getElementById("spellResult").textContent = data[number].name + ": " + data[number].description;
+            }
+            document.getElementById("spellBtn").addEventListener("click", getSpell);
+
+           
+            async function getCharacter() {
+                const response = await fetch("https://hp-api.onrender.com/api/characters");
+                const data = await response.json();
+                const number = Math.floor(Math.random() * 20); // one of the first 20 (main characters)
+                document.getElementById("hpResult").textContent = data[number].name + ", " + data[number].house;
+                document.getElementById("hpImg").src = data[number].image;
+            }
+            document.getElementById("hpBtn").addEventListener("click", getCharacter);
+
+            
+            async function getDog() {
+                const response = await fetch("https://dog.ceo/api/breeds/image/random");
+                const data = await response.json();
+                document.getElementById("dogImg").src = data.message;
+            }
+            document.getElementById("dogBtn").addEventListener("click", getDog);
+
+            
+            async function getAdvice() {
+                const response = await fetch("https://api.adviceslip.com/advice");
+                const data = await response.json();
+                document.getElementById("adviceResult").textContent = data.slip.advice;
+            }
+            document.getElementById("adviceBtn").addEventListener("click", getAdvice);
+        </script>
+    </body>
+</html>

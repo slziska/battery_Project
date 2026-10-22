@@ -322,3 +322,180 @@
 2026-09-18 10:27:39.694 | SUCCESS  | __main__:<module>:82 - Resting complete
 2026-09-18 10:27:39.695 | SUCCESS  | __main__:<module>:86 - Process complete
 2026-09-18 10:27:39.695 | INFO     | __main__:<module>:87 - ----------------------
+2026-09-21 15:43:09.908 | SUCCESS  | __main__:<module>:20 - Battery process worker started
+2026-09-21 15:43:15.540 | INFO     | __main__:handle_mixing:62 - Started mixing
+2026-09-21 15:43:15.543 | SUCCESS  | __main__:handle_mixing:66 - Mixing complete
+2026-09-21 15:43:18.830 | INFO     | __main__:handle_coating:70 - Started coating
+2026-09-21 15:43:18.833 | SUCCESS  | __main__:handle_coating:74 - Coating complete
+2026-09-21 15:43:22.622 | INFO     | __main__:handle_calendering:78 - Started calendering
+2026-09-21 15:43:22.625 | SUCCESS  | __main__:handle_calendering:82 - Calendering complete
+2026-09-21 15:43:25.852 | INFO     | __main__:handle_assemblying:86 - Started assemblying
+2026-09-21 15:43:25.859 | SUCCESS  | __main__:handle_assemblying:90 - Assemblying complete
+2026-09-21 15:43:25.861 | INFO     | __main__:handle_assemblying:93 - Started resting
+2026-09-21 15:44:44.884 | SUCCESS  | __main__:<module>:20 - Battery process worker started
+2026-09-21 15:44:45.668 | INFO     | __main__:handle_assemblying:86 - Started assemblying
+2026-09-21 15:44:45.671 | SUCCESS  | __main__:handle_assemblying:90 - Assemblying complete
+2026-09-21 15:44:45.672 | INFO     | __main__:handle_assemblying:93 - Started resting
+2026-09-21 15:45:46.244 | SUCCESS  | __main__:handle_assemblying:96 - Resting complete
+2026-09-21 15:45:46.245 | SUCCESS  | __main__:handle_assemblying:98 - Process complete
+2026-09-21 15:45:46.245 | INFO     | __main__:handle_assemblying:99 - ----------------------
+2026-09-21 15:47:59.461 | SUCCESS  | __main__:<module>:20 - Battery process worker started
+2026-09-21 15:48:06.594 | INFO     | __main__:handle_mixing:62 - Started mixing
+2026-09-21 15:48:06.597 | SUCCESS  | __main__:handle_mixing:66 - Mixing complete
+2026-09-21 15:48:09.367 | INFO     | __main__:handle_coating:70 - Started coating
+2026-09-21 15:48:09.369 | SUCCESS  | __main__:handle_coating:74 - Coating complete
+2026-09-21 15:48:11.607 | INFO     | __main__:handle_calendering:78 - Started calendering
+2026-09-21 15:48:11.611 | SUCCESS  | __main__:handle_calendering:82 - Calendering complete
+2026-09-21 15:48:14.130 | INFO     | __main__:handle_assemblying:86 - Started assemblying
+2026-09-21 15:48:14.133 | SUCCESS  | __main__:handle_assemblying:90 - Assemblying complete
+2026-09-21 15:48:14.133 | INFO     | __main__:handle_assemblying:93 - Started resting
+2026-09-21 15:49:14.990 | SUCCESS  | __main__:handle_assemblying:96 - Resting complete
+2026-09-21 15:49:14.990 | SUCCESS  | __main__:handle_assemblying:98 - Process complete
+2026-09-21 15:49:14.990 | INFO     | __main__:handle_assemblying:99 - ----------------------
+2026-09-21 16:05:05.436 | SUCCESS  | __main__:<module>:16 - Battery process started
+2026-09-21 16:05:05.707 | INFO     | __main__:run_mixing:62 - Started mixing
+2026-09-21 16:05:05.716 | SUCCESS  | __main__:run_mixing:66 - Mixing complete
+2026-09-21 16:05:05.784 | INFO     | __main__:run_mixing:62 - Started mixing
+2026-09-21 16:05:05.789 | SUCCESS  | __main__:run_mixing:66 - Mixing complete
+2026-09-21 16:05:08.067 | INFO     | __main__:run_coating:72 - Started coating
+2026-09-21 16:05:08.072 | SUCCESS  | __main__:run_coating:76 - Coating complete
+2026-09-21 16:05:08.139 | INFO     | __main__:run_coating:72 - Started coating
+2026-09-21 16:05:08.143 | SUCCESS  | __main__:run_coating:76 - Coating complete
+2026-09-21 16:05:10.269 | INFO     | __main__:run_calendering:82 - Started calendering
+2026-09-21 16:05:10.276 | SUCCESS  | __main__:run_calendering:86 - Calendering complete
+2026-09-21 16:05:10.323 | INFO     | __main__:run_calendering:82 - Started calendering
+2026-09-21 16:05:10.326 | SUCCESS  | __main__:run_calendering:86 - Calendering complete
+2026-09-21 16:05:12.804 | INFO     | __main__:run_assemblying:92 - Started assemblying
+2026-09-21 16:05:12.811 | SUCCESS  | __main__:run_assemblying:96 - Assemblying complete
+2026-09-21 16:05:12.813 | INFO     | __main__:run_assemblying:104 - Started resting
+2026-09-21 16:06:13.696 | SUCCESS  | __main__:run_assemblying:107 - Resting complete
+2026-09-21 16:06:13.698 | SUCCESS  | __main__:run_assemblying:110 - Process complete
+2026-09-21 16:06:13.699 | INFO     | __main__:run_assemblying:111 - ----------------------
+2026-09-21 16:06:14.353 | INFO     | __main__:run_assemblying:92 - Started assemblying
+2026-09-21 16:06:14.358 | SUCCESS  | __main__:run_assemblying:96 - Assemblying complete
+2026-09-21 16:06:14.360 | INFO     | __main__:run_assemblying:104 - Started resting
+2026-09-21 16:07:15.224 | SUCCESS  | __main__:run_assemblying:107 - Resting complete
+2026-09-21 16:07:15.228 | SUCCESS  | __main__:run_assemblying:110 - Process complete
+2026-09-21 16:07:15.231 | INFO     | __main__:run_assemblying:111 - ----------------------
+2026-09-22 09:43:31.651 | SUCCESS  | __main__:<module>:16 - Battery process started
+2026-09-22 09:44:37.913 | INFO     | __main__:run_mixing:62 - Started mixing
+2026-09-22 09:44:37.923 | SUCCESS  | __main__:run_mixing:66 - Mixing complete
+2026-09-22 09:44:40.070 | INFO     | __main__:run_coating:72 - Started coating
+2026-09-22 09:44:40.076 | SUCCESS  | __main__:run_coating:76 - Coating complete
+2026-09-22 09:44:42.127 | INFO     | __main__:run_calendering:82 - Started calendering
+2026-09-22 09:44:42.132 | SUCCESS  | __main__:run_calendering:86 - Calendering complete
+2026-09-22 09:44:44.211 | INFO     | __main__:run_assemblying:92 - Started assemblying
+2026-09-22 09:44:44.215 | SUCCESS  | __main__:run_assemblying:96 - Assemblying complete
+2026-09-22 09:44:44.217 | INFO     | __main__:run_assemblying:104 - Started resting
+2026-09-22 09:45:45.506 | SUCCESS  | __main__:run_assemblying:107 - Resting complete
+2026-09-22 09:45:45.507 | SUCCESS  | __main__:run_assemblying:110 - Process complete
+2026-09-22 09:45:45.507 | INFO     | __main__:run_assemblying:111 - ----------------------
+2026-09-22 09:45:47.620 | INFO     | __main__:run_mixing:62 - Started mixing
+2026-09-22 09:45:47.623 | SUCCESS  | __main__:run_mixing:66 - Mixing complete
+2026-09-22 09:45:49.676 | INFO     | __main__:run_coating:72 - Started coating
+2026-09-22 09:45:49.679 | SUCCESS  | __main__:run_coating:76 - Coating complete
+2026-09-22 09:45:51.714 | INFO     | __main__:run_calendering:82 - Started calendering
+2026-09-22 09:45:51.717 | SUCCESS  | __main__:run_calendering:86 - Calendering complete
+2026-09-22 09:45:53.766 | INFO     | __main__:run_assemblying:92 - Started assemblying
+2026-09-22 09:45:53.771 | SUCCESS  | __main__:run_assemblying:96 - Assemblying complete
+2026-09-22 09:45:53.772 | INFO     | __main__:run_assemblying:104 - Started resting
+2026-09-22 09:46:54.386 | SUCCESS  | __main__:run_assemblying:107 - Resting complete
+2026-09-22 09:46:54.387 | SUCCESS  | __main__:run_assemblying:110 - Process complete
+2026-09-22 09:46:54.388 | INFO     | __main__:run_assemblying:111 - ----------------------
+2026-09-22 10:43:29.521 | INFO     | __main__:run_mixing:62 - Started mixing
+2026-09-22 10:43:29.523 | SUCCESS  | __main__:run_mixing:66 - Mixing complete
+2026-09-22 10:43:31.565 | INFO     | __main__:run_coating:72 - Started coating
+2026-09-22 10:43:31.567 | SUCCESS  | __main__:run_coating:76 - Coating complete
+2026-09-22 10:43:33.591 | INFO     | __main__:run_calendering:82 - Started calendering
+2026-09-22 10:43:33.594 | SUCCESS  | __main__:run_calendering:86 - Calendering complete
+2026-09-22 10:43:35.623 | INFO     | __main__:run_assemblying:92 - Started assemblying
+2026-09-22 10:43:35.627 | SUCCESS  | __main__:run_assemblying:96 - Assemblying complete
+2026-09-22 10:43:35.629 | INFO     | __main__:run_assemblying:104 - Started resting
+2026-09-22 10:44:36.248 | SUCCESS  | __main__:run_assemblying:107 - Resting complete
+2026-09-22 10:44:36.249 | SUCCESS  | __main__:run_assemblying:110 - Process complete
+2026-09-22 10:44:36.250 | INFO     | __main__:run_assemblying:111 - ----------------------
+2026-09-22 10:44:40.296 | INFO     | __main__:run_mixing:62 - Started mixing
+2026-09-22 10:44:40.300 | SUCCESS  | __main__:run_mixing:66 - Mixing complete
+2026-09-22 10:44:42.334 | INFO     | __main__:run_coating:72 - Started coating
+2026-09-22 10:44:42.337 | SUCCESS  | __main__:run_coating:76 - Coating complete
+2026-09-22 10:44:44.370 | INFO     | __main__:run_calendering:82 - Started calendering
+2026-09-22 10:44:44.373 | SUCCESS  | __main__:run_calendering:86 - Calendering complete
+2026-09-22 10:44:46.423 | INFO     | __main__:run_assemblying:92 - Started assemblying
+2026-09-22 10:44:46.426 | SUCCESS  | __main__:run_assemblying:96 - Assemblying complete
+2026-09-22 10:44:46.428 | INFO     | __main__:run_assemblying:104 - Started resting
+2026-09-22 10:45:47.079 | SUCCESS  | __main__:run_assemblying:107 - Resting complete
+2026-09-22 10:45:47.080 | SUCCESS  | __main__:run_assemblying:110 - Process complete
+2026-09-22 10:45:47.081 | INFO     | __main__:run_assemblying:111 - ----------------------
+2026-09-22 11:36:18.433 | INFO     | __main__:run_mixing:62 - Started mixing
+2026-09-22 11:36:18.436 | SUCCESS  | __main__:run_mixing:66 - Mixing complete
+2026-09-22 11:36:20.462 | INFO     | __main__:run_coating:72 - Started coating
+2026-09-22 11:36:20.465 | SUCCESS  | __main__:run_coating:76 - Coating complete
+2026-09-22 11:36:22.487 | INFO     | __main__:run_calendering:82 - Started calendering
+2026-09-22 11:36:22.489 | SUCCESS  | __main__:run_calendering:86 - Calendering complete
+2026-09-22 11:36:24.529 | INFO     | __main__:run_assemblying:92 - Started assemblying
+2026-09-22 11:36:24.532 | SUCCESS  | __main__:run_assemblying:96 - Assemblying complete
+2026-09-22 11:36:24.534 | INFO     | __main__:run_assemblying:104 - Started resting
+2026-09-22 11:37:25.094 | SUCCESS  | __main__:run_assemblying:107 - Resting complete
+2026-09-22 11:37:25.095 | SUCCESS  | __main__:run_assemblying:110 - Process complete
+2026-09-22 11:37:25.096 | INFO     | __main__:run_assemblying:111 - ----------------------
+2026-09-22 11:43:22.250 | INFO     | __main__:run_mixing:62 - Started mixing
+2026-09-22 11:43:22.252 | SUCCESS  | __main__:run_mixing:66 - Mixing complete
+2026-09-22 11:43:24.280 | INFO     | __main__:run_coating:72 - Started coating
+2026-09-22 11:43:24.284 | SUCCESS  | __main__:run_coating:76 - Coating complete
+2026-09-22 11:43:26.312 | INFO     | __main__:run_calendering:82 - Started calendering
+2026-09-22 11:43:26.315 | SUCCESS  | __main__:run_calendering:86 - Calendering complete
+2026-09-22 11:43:28.348 | INFO     | __main__:run_assemblying:92 - Started assemblying
+2026-09-22 11:43:28.352 | SUCCESS  | __main__:run_assemblying:96 - Assemblying complete
+2026-09-22 11:43:28.353 | INFO     | __main__:run_assemblying:104 - Started resting
+2026-09-22 11:44:28.949 | SUCCESS  | __main__:run_assemblying:107 - Resting complete
+2026-09-22 11:44:28.954 | SUCCESS  | __main__:run_assemblying:110 - Process complete
+2026-09-22 11:44:28.955 | INFO     | __main__:run_assemblying:111 - ----------------------
+2026-09-22 11:57:28.036 | INFO     | __main__:run_mixing:62 - Started mixing
+2026-09-22 11:57:28.041 | SUCCESS  | __main__:run_mixing:66 - Mixing complete
+2026-09-22 11:57:30.082 | INFO     | __main__:run_coating:72 - Started coating
+2026-09-22 11:57:30.088 | SUCCESS  | __main__:run_coating:76 - Coating complete
+2026-09-22 11:57:32.131 | INFO     | __main__:run_calendering:82 - Started calendering
+2026-09-22 11:57:32.136 | SUCCESS  | __main__:run_calendering:86 - Calendering complete
+2026-09-22 11:57:34.164 | INFO     | __main__:run_assemblying:92 - Started assemblying
+2026-09-22 11:57:34.167 | SUCCESS  | __main__:run_assemblying:96 - Assemblying complete
+2026-09-22 11:57:34.168 | INFO     | __main__:run_assemblying:104 - Started resting
+2026-09-22 11:58:34.965 | SUCCESS  | __main__:run_assemblying:107 - Resting complete
+2026-09-22 11:58:34.969 | SUCCESS  | __main__:run_assemblying:110 - Process complete
+2026-09-22 11:58:34.971 | INFO     | __main__:run_assemblying:111 - ----------------------
+2026-09-23 09:46:17.210 | SUCCESS  | __main__:<module>:14 - Battery process started
+2026-09-23 09:47:05.452 | INFO     | __main__:run_mixing:54 - Started mixing
+2026-09-23 09:47:05.456 | SUCCESS  | __main__:run_mixing:58 - Mixing complete
+2026-09-23 09:47:07.695 | INFO     | __main__:run_coating:64 - Started coating
+2026-09-23 09:47:07.698 | SUCCESS  | __main__:run_coating:68 - Coating complete
+2026-09-23 09:47:09.778 | INFO     | __main__:run_calendering:74 - Started calendering
+2026-09-23 09:47:09.781 | SUCCESS  | __main__:run_calendering:78 - Calendering complete
+2026-09-23 09:47:11.846 | INFO     | __main__:run_assemblying:84 - Started assemblying
+2026-09-23 09:47:11.851 | SUCCESS  | __main__:run_assemblying:88 - Assemblying complete
+2026-09-23 09:47:11.852 | INFO     | __main__:run_assemblying:93 - Started resting
+2026-09-23 09:48:12.538 | SUCCESS  | __main__:run_assemblying:96 - Resting complete
+2026-09-23 09:48:12.539 | SUCCESS  | __main__:run_assemblying:99 - Process complete
+2026-09-23 09:48:12.540 | INFO     | __main__:run_assemblying:100 - ----------------------
+2026-09-23 09:48:14.685 | INFO     | __main__:run_mixing:54 - Started mixing
+2026-09-23 09:48:14.689 | SUCCESS  | __main__:run_mixing:58 - Mixing complete
+2026-09-23 09:48:16.760 | INFO     | __main__:run_coating:64 - Started coating
+2026-09-23 09:48:16.763 | SUCCESS  | __main__:run_coating:68 - Coating complete
+2026-09-23 09:48:18.830 | INFO     | __main__:run_calendering:74 - Started calendering
+2026-09-23 09:48:18.833 | SUCCESS  | __main__:run_calendering:78 - Calendering complete
+2026-09-23 09:48:20.900 | INFO     | __main__:run_assemblying:84 - Started assemblying
+2026-09-23 09:48:20.904 | SUCCESS  | __main__:run_assemblying:88 - Assemblying complete
+2026-09-23 09:48:20.906 | INFO     | __main__:run_assemblying:93 - Started resting
+2026-09-23 09:49:21.526 | SUCCESS  | __main__:run_assemblying:96 - Resting complete
+2026-09-23 09:49:21.527 | SUCCESS  | __main__:run_assemblying:99 - Process complete
+2026-09-23 09:49:21.528 | INFO     | __main__:run_assemblying:100 - ----------------------
+2026-09-23 13:11:16.205 | INFO     | __main__:run_mixing:54 - Started mixing
+2026-09-23 13:11:16.211 | SUCCESS  | __main__:run_mixing:58 - Mixing complete
+2026-09-23 13:11:18.242 | INFO     | __main__:run_coating:64 - Started coating
+2026-09-23 13:11:18.245 | SUCCESS  | __main__:run_coating:68 - Coating complete
+2026-09-23 13:11:20.275 | INFO     | __main__:run_calendering:74 - Started calendering
+2026-09-23 13:11:20.278 | SUCCESS  | __main__:run_calendering:78 - Calendering complete
+2026-09-23 13:11:22.308 | INFO     | __main__:run_assemblying:84 - Started assemblying
+2026-09-23 13:11:22.310 | SUCCESS  | __main__:run_assemblying:88 - Assemblying complete
+2026-09-23 13:11:22.312 | INFO     | __main__:run_assemblying:93 - Started resting
+2026-09-23 13:12:23.105 | SUCCESS  | __main__:run_assemblying:96 - Resting complete
+2026-09-23 13:12:23.106 | SUCCESS  | __main__:run_assemblying:99 - Process complete
+2026-09-23 13:12:23.106 | INFO     | __main__:run_assemblying:100 - ----------------------
